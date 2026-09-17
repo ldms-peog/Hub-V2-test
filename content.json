@@ -1,0 +1,133 @@
+{
+  "_comment": "CISO AI Hub V2 — all editable content. Non-developers edit this file. Fields marked TO_BE_PROVIDED must be filled before publishing.",
+  "_lastReviewed": "2026-09-17",
+  "_owner": "TO_BE_PROVIDED",
+
+  "LINKS": {
+    "ai_hub": "https://thehub.stellantis.com/home/ls/content/7237797609595391/ciso-news-adoption-AI",
+    "learning_agent": "https://thehub.stellantis.com/home/ls/content/6700210964015592/ciso-new-adoption-ai-news-2",
+    "trainings": "https://thehub.stellantis.com/home/ls/content/1479797963026210/ciso-new-adoption-ai-trainings",
+    "responsible_ai": "https://thehub.stellantis.com/home/ls/content/4938664883851410/ai-governance-dimensions-copy",
+    "ai_skills_navigator": "https://aiskillsnavigator.microsoft.com/",
+    "ai_starter_kit": "https://shiftup.sharepoint.com/:p:/r/sites/MSFT-STLPartnershipCybersecurity/Shared%20Documents/Global%20Transformation%20-%20SCRT/11%20-%20Operationalize%20AI/02.%20Capability%20building/01%20-%20AI%20Hub/01.%20AI%20Starter%20Kit/AI%20Starter%20Kit.pptx",
+    "ai_community_teams": "https://teams.microsoft.com/l/channel/19%3AkGUBS-CciI_7i0flsKJHFN7NAW2tlQrQ1tDEYtWLjKQ1%40thread.tacv2/CISO%20AI%20Channel?groupId=dc2b0db1-95cf-4bd0-bed5-fbbdb420305b&tenantId=d852d5cd-724c-4128-8812-ffa5db3f8507",
+    "use_case_tracker": "https://shiftup.sharepoint.com/:l:/r/sites/MSFT-STLPartnershipCybersecurity/Lists/AI%20use%20case%20tracker",
+    "ai_repository": "TO_BE_PROVIDED",
+    "ai_catalog": "TO_BE_PROVIDED",
+    "learning_path_page": "TO_BE_PROVIDED",
+    "classification_guidelines": "TO_BE_PROVIDED",
+    "lifecycle_deck": "TO_BE_PROVIDED"
+  },
+
+  "PSL_LIST": [
+    { "code": "SGRC",       "label": "Strategy & GRC",             "lead": "Claire Blejean",    "ambassador": "Guillaume Genet" },
+    { "code": "CBP",        "label": "Cybersecurity Business Partner", "lead": "Eric Fishtahler", "ambassador": "Fernando Sanchez" },
+    { "code": "MFG",        "label": "Manufacturing Cybersecurity", "lead": "Fernando Casale",  "ambassador": "Noah Szymanski" },
+    { "code": "PRDT",       "label": "Product Cybersecurity",      "lead": "Bruno Santos",      "ambassador": "Sebastien Denis" },
+    { "code": "IAM",        "label": "Identity & Access Management", "lead": "Sophie Gozdenovic", "ambassador": "Mahalakshmi Channabore Gowda" },
+    { "code": "CDOC",       "label": "Cybersecurity Defense Centre", "lead": "Lucas Wallart",   "ambassador": "Jeremie Schmitt" },
+    { "code": "CF",         "label": "Cybersecurity Foundation",   "lead": "Meryem Bouziyane",  "ambassador": "Priyam Jena" }
+  ],
+  "_PSL_NOTE": "Tracker uses CF for Foundation; the ambassador table uses FOUNDATION. CF is canonical. Several tracker rows have an empty PSL.",
+
+  "AMBASSADORS": [
+    { "psl": "SGRC", "name": "Guillaume Genet", "role": "Cybersecurity Compliance & Security Champions", "email": "TO_BE_PROVIDED" },
+    { "psl": "CDOC", "name": "Jeremie Schmitt", "role": "Cyber Monitoring", "email": "TO_BE_PROVIDED" },
+    { "psl": "CF", "name": "Priyam Jena", "role": "DevSecOps — Application Security Engineer", "email": "TO_BE_PROVIDED" },
+    { "psl": "MFG", "name": "Noah Szymanski", "role": "CISO Industrial", "email": "TO_BE_PROVIDED" },
+    { "psl": "IAM", "name": "Mahalakshmi Channabore Gowda", "role": "External", "email": "mahalakshmi.gowda@external.stellantis.com" },
+    { "psl": "PRDT", "name": "Sebastien Denis", "role": "PSOC Lead", "email": "TO_BE_PROVIDED" },
+    { "psl": "CBP", "name": "Fernando Sanchez", "role": "Third-party Cyber Risk Product", "email": "TO_BE_PROVIDED" }
+  ],
+
+  "TOOL_CONTACTS": [
+    { "tool": "Microsoft 365 Copilot", "name": "Patricia Salinas", "role": "Chef de projet accompagnement au changement", "email": "TO_BE_PROVIDED" },
+    { "tool": "Copilot Studio", "name": "Christian Wauquiez", "role": "Generative AI Strategist", "email": "TO_BE_PROVIDED" },
+    { "tool": "Copilot Studio", "name": "Daria Billoir", "role": "External", "email": "daria.billoir@external.stellantis.com" },
+    { "tool": "GitHub Copilot", "name": "Thierry Bey", "role": "Resp. ingénierie de développement", "email": "TO_BE_PROVIDED" },
+    { "tool": "Security Copilot", "name": "Peter Theuns", "role": "External", "email": "peter.theuns@external.stellantis.com" },
+    { "tool": "AI Hub", "name": "Celine Landry", "role": "Cybersecurity Global Transformation", "email": "TO_BE_PROVIDED" }
+  ],
+
+  "PLATFORMS": [
+    "Microsoft 365 Copilot",
+    "Copilot Studio",
+    "Security Copilot",
+    "GitHub Copilot",
+    "Microsoft Defender",
+    "Microsoft Entra",
+    "Microsoft Purview",
+    "Microsoft Intune",
+    "Not sure"
+  ],
+
+  "TYPES": [
+    "Built-in Agent",
+    "Custom Agent",
+    "GitHub Copilot Use Case",
+    "Security Copilot",
+    "Promptbook",
+    "Not sure"
+  ],
+
+  "STATUSES": [
+    "Backlog",
+    "Ready for POC",
+    "In POC",
+    "Pending Validation",
+    "In PROD",
+    "On Hold",
+    "Cancelled"
+  ],
+
+  "PRIORITIES": ["P1", "P2", "P3"],
+
+  "THRESHOLDS": { "draft": 50, "needsWork": 80 },
+
+  "SCORE_CRITERIA": [
+    { "id": "problem_not_solution", "label": "Pain point described as a problem, not a solution", "weight": 15 },
+    { "id": "user_named",           "label": "Affected user / population named",                  "weight": 10 },
+    { "id": "frequency_and_cost",   "label": "Frequency and time cost both provided",             "weight": 15 },
+    { "id": "duplicate_checked",    "label": "Duplicate check performed against the catalogue",   "weight": 10 },
+    { "id": "data_ok",              "label": "Data identified, classification C3 max, no personal data", "weight": 20 },
+    { "id": "sponsor_named",        "label": "Business sponsor named",                            "weight": 15 },
+    { "id": "outcome_measurable",   "label": "Expected outcome is measurable",                    "weight": 15 }
+  ],
+  "_SCORE_NOTE": "Provisional weights. To be replaced once the formal definition of done is published, and aligned with tracker item AI-89 Business Value Assessment.",
+
+  "TRACKER_SCHEMA": [
+    "ID", "Use Case / Agent Name", "PSL", "Status", "Iteration", "Type", "Owner",
+    "AI Tool / Product Surface", "Description", "Business Value", "Agent Availability",
+    "Priority", "Target Date", "Environment", "Status Updates", "Code REPO",
+    "Documentation", "Blockers", "Next Steps"
+  ],
+  "_SCHEMA_NOTE": "Column names taken from the CSV export of the SharePoint list. Confirm they match the list internal names before relying on the JSON import.",
+
+  "EXISTING_USE_CASES": [
+    { "id": "AI-1",  "name": "Phishing Triage Agent / Security Alert Triage Agent", "psl": "CDOC", "status": "Pending Validation", "platform": "Security Copilot", "keywords": ["phishing", "email", "triage", "alert", "classification", "soc", "incident"] },
+    { "id": "AI-2",  "name": "Conditional Access Optimization Agent", "psl": "IAM", "status": "Pending Validation", "platform": "Microsoft Entra", "keywords": ["conditional access", "policy", "zero trust", "entra", "identity", "review"] },
+    { "id": "AI-3",  "name": "Dynamic Threat Detection Agent", "psl": "CDOC", "status": "On Hold", "platform": "Microsoft Defender XDR", "keywords": ["threat", "detection", "correlation", "anomaly", "mitre", "hidden"] },
+    { "id": "AI-4",  "name": "Copilot Assisted App Analysis (SiteMinder)", "psl": "IAM", "status": "In PROD", "platform": "GitHub Copilot", "keywords": ["refactor", "application", "siteminder", "oidc", "saml", "migration"] },
+    { "id": "AI-6",  "name": "Security Copilot for Privileged Access Assessment", "psl": "IAM", "status": "Pending Validation", "platform": "Security Copilot", "keywords": ["privileged", "access", "review", "over-privilege", "entra"] },
+    { "id": "AI-7",  "name": "Secure Code Refactoring", "psl": "CF", "status": "In PROD", "platform": "GitHub Copilot", "keywords": ["code", "secure coding", "pull request", "vulnerability", "merge", "shift left"] },
+    { "id": "AI-8",  "name": "Zero Trust Architecture Assessment Agent", "psl": "CF", "status": "In POC", "platform": "Copilot Studio", "keywords": ["zero trust", "assessment", "gap analysis", "remediation", "posture"] },
+    { "id": "AI-12", "name": "Suspicious script analysis promptbook", "psl": "CDOC", "status": "Ready for POC", "platform": "Security Copilot", "keywords": ["script", "powershell", "obfuscation", "malicious", "command line"] },
+    { "id": "AI-19", "name": "Threat Hunting Agent", "psl": "CDOC", "status": "Ready for POC", "platform": "Defender Advanced Hunting", "keywords": ["hunting", "kql", "natural language", "query", "remediation"] },
+    { "id": "AI-23", "name": "Vulnerability Remediation Agent", "psl": "CF", "status": "Backlog", "platform": "Microsoft Intune", "keywords": ["vulnerability", "remediation", "patch", "endpoint", "prioritisation", "risk"] },
+    { "id": "AI-25", "name": "CISO Daily Briefing", "psl": "CDOC", "status": "Backlog", "platform": "Security Copilot", "keywords": ["briefing", "executive", "daily", "report", "summary", "posture"] },
+    { "id": "AI-29", "name": "Unresolved Incident Tracker", "psl": "CDOC", "status": "Backlog", "platform": "Security Copilot", "keywords": ["incident", "sla", "escalation", "open", "tracking", "accountability"] },
+    { "id": "AI-30", "name": "Alert Fatigue Analyzer", "psl": "CDOC", "status": "Backlog", "platform": "Security Copilot", "keywords": ["alert", "false positive", "noise", "tuning", "volume", "fatigue"] },
+    { "id": "AI-37", "name": "Stale Account Auditor", "psl": "CDOC", "status": "Backlog", "platform": "Security Copilot", "keywords": ["stale", "inactive", "account", "dormant", "hygiene", "disable"] },
+    { "id": "AI-55", "name": "CDOC Log Onboarding", "psl": "CDOC", "status": "Ready for POC", "platform": "GitHub Copilot", "keywords": ["log", "onboarding", "sentinel", "source", "detection", "configuration"] },
+    { "id": "AI-61", "name": "Compliance Assessment Agent", "psl": "CDOC", "status": "Backlog", "platform": "GitHub Copilot", "keywords": ["compliance", "evidence", "criteria", "report", "remediation", "audit"] },
+    { "id": "AI-67", "name": "Metrics Tracking & Reporting Agent", "psl": "CDOC", "status": "In POC", "platform": "GitHub Copilot", "keywords": ["metrics", "kpi", "dashboard", "reporting", "anomaly", "trend", "data quality"] },
+    { "id": "AI-73", "name": "Explain Scanner Findings", "psl": "CF", "status": "Backlog", "platform": "GitHub Copilot", "keywords": ["scanner", "finding", "explain", "developer", "triage", "ghas", "checkmarx"] },
+    { "id": "AI-80", "name": "Github Alerts Review Agent", "psl": "CF", "status": "In POC", "platform": "GitHub Copilot", "keywords": ["github", "alert", "review", "approve", "triage", "mttr"] },
+    { "id": "AI-84", "name": "Entra Licensing Agent", "psl": "IAM", "status": "In POC", "platform": "Copilot Studio", "keywords": ["licence", "licensing", "assigned", "cost", "dashboard", "usage"] },
+    { "id": "AI-85", "name": "Github CASB documentation builder and reviewer", "psl": "CF", "status": "In POC", "platform": "GitHub Copilot", "keywords": ["documentation", "casb", "dlp", "policy", "review", "maintain"] },
+    { "id": "AI-86", "name": "Cyber AI Ideation Agent", "psl": "", "status": "In POC", "platform": "Copilot Studio", "keywords": ["ideation", "submit", "evaluate", "track", "use case", "intake"] },
+    { "id": "AI-88", "name": "AI-First Process Redesign", "psl": "", "status": "In POC", "platform": "Copilot Studio", "keywords": ["process", "redesign", "agentic", "workflow", "manual", "siloed"] },
+    { "id": "AI-89", "name": "Business Value Assessment", "psl": "", "status": "In POC", "platform": "Copilot Studio", "keywords": ["value", "assessment", "impact", "cost", "risk", "benefit", "prioritise"] }
+  ],
+  "_USE_CASES_NOTE": "24 of 89 tracker rows, chosen for keyword coverage. Refresh from the tracker export. MFG, PRDT, CBP and SGRC currently have no entries at all."
+}
