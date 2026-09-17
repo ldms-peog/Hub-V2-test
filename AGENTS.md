@@ -70,3 +70,7 @@ below.
 
 Small tasks, one concern per diff. Comment each block. Prefer readability
 over cleverness. Under 1500 lines total.
+
+## Git workflow
+Never commit directly to `main`.
+Always create a branch named `codex/<short-task-name>` and open a pull request.
